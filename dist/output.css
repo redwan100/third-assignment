@@ -891,6 +891,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-\[85\%\] {
+  max-width: 85%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1888,6 +1892,11 @@ video {
   background-color: transparent;
 }
 
+.bg-\[\#B68C5A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(182 140 90 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -2223,11 +2232,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
