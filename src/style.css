@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+h1{
+    font-family: 'EB Garamond', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url('../assets/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
