@@ -13,9 +13,3 @@ https://legal-solutions-resource.netlify.app/
 ```
 https://redwan100.github.io/third-assignment/
 ```
-
----
-
-##Website thumbnails
-
-![website](./Legal%20Resource.png)
