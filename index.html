@@ -19,7 +19,7 @@
   <body class="bg-white text-black min-h-screen">
     <!-- HEADER SECTION START--------------------- -->
     <header class="sticky top-0 left-0 shadow-md w-full z-50 bg-white">
-      <nav class=" py-3 ">
+      <nav class="py-3">
         <div class="container mx-auto max-w-[85%]">
           <div class="flex justify-between items-center">
             <!-- LOGO-------------- -->
@@ -59,11 +59,30 @@
 
             <!-- MENU BUTTON-------------- -->
             <div>
-              <button
+              <!-- <button
                 class="bg-[#B68C5A] text-white py-3 px-5 rounded-md capitalize font-semibold text-sm"
               >
                 free consultation
-              </button>
+              </button> -->
+
+
+              <label for="my-modal" class="bg-[#B68C5A] text-white py-3 px-5 rounded-md capitalize font-semibold text-sm cursor-pointer"> free consultation</label>
+
+
+              <input type="checkbox" id="my-modal" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-white">
+                  <h3 class="font-bold text-3xl text-center">
+                   Welcome
+                  </h3>
+                  <p class="py-4 text-center">
+                    Thank you so much for visiting this website!
+                  </p>
+                  <div class="modal-action">
+                    <label for="my-modal" class="w-10 h-10 bg-[#B68C5A] grid place-content-center text-white font-bold rounded-full cursor-pointer">X</label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -71,7 +90,7 @@
     </header>
 
     <!-- BANNER SECTION START----------------------- -->
-    <section class="py-5">
+    <section class="py-5 w-full">
       <div class="container mx-auto w-[85%]">
         <div class="banner p-10 bg-slate-400 text-white rounded-lg">
           <div class="w-[60%] mx-auto space-y-[28px] py-10">
@@ -103,9 +122,9 @@
     </section>
 
     <!-- MAIN SECTION START----------------------  -->
-    <main>
+    <main class="w-full">
       <!-- PRACTICE SECTION START---------------------------------------------------------------- -->
-      <section class="py-[3rem]">
+      <section class="py-[3rem] w-full">
         <div class="container mx-auto w-[85%]">
           <div class="w-[70%] mx-auto text-center mb-8">
             <h1 class="text-[2.5rem] font-semibold mb-3">
@@ -254,7 +273,7 @@
       </section>
 
       <!-- CLIENTS SECTION START----------------------  -->
-      <section class="py-[3rem]">
+      <section class="py-[3rem] w-full">
         <div class="container mx-auto w-[85%]">
           <div class="w-[70%] mx-auto text-center mb-8">
             <h1 class="text-[2.5rem] font-semibold mb-3">
@@ -278,7 +297,7 @@
               />
 
               <div
-                class="absolute top-10 mt-8 w-[650px] left-[30%] text-white text-center"
+                class="absolute top-10 mt-8 max-w-[650px] left-[200px] text-white text-center"
               >
                 <img
                   class="w-[4rem] mb-3 h-auto z-20 block mx-auto"
@@ -311,7 +330,7 @@
               />
 
               <div
-                class="absolute top-10 mt-8 w-[650px] left-[30%] text-white text-center"
+                class="absolute top-10 mt-8 max-w-[650px] left-[200px] text-white text-center"
               >
                 <img
                   class="w-[4rem] mb-3 h-auto z-20 block mx-auto"
@@ -343,7 +362,7 @@
               />
 
               <div
-                class="absolute top-10 mt-8 w-[650px] left-[30%] text-white text-center"
+                class="absolute top-10 mt-8 max-w-[650px] left-[200px] text-white text-center"
               >
                 <img
                   class="w-[4rem] mb-3 h-auto z-20 block mx-auto"
@@ -375,7 +394,7 @@
               />
 
               <div
-                class="absolute top-10 mt-8 w-[650px] left-[30%] text-white text-center"
+                class="absolute top-10 mt-8 max-w-[650px] left-[200px] text-white text-center"
               >
                 <img
                   class="w-[4rem] mb-3 h-auto z-20 block mx-auto"
@@ -404,7 +423,7 @@
       </section>
 
       <!-- FAQ SECTION START-------------------------------  -->
-      <section class="py-10">
+      <section class="py-10 w-full">
         <div class="container mx-auto w-[85%]">
           <div class="max-w-[700px] mx-auto text-center mb-10">
             <h1 class="text-4xl font-bold mb-3">
