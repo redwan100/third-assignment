@@ -18,8 +18,8 @@
   </head>
   <body class="bg-white text-black min-h-screen">
     <!-- HEADER SECTION START--------------------- -->
-    <header>
-      <nav class="w-full py-3 shadow-md">
+    <header class="sticky top-0 left-0 shadow-md w-full z-50 bg-white">
+      <nav class=" py-3 ">
         <div class="container mx-auto max-w-[85%]">
           <div class="flex justify-between items-center">
             <!-- LOGO-------------- -->
@@ -528,60 +528,174 @@
             </p>
           </div>
 
-
           <!-- CONTACT FORM---------------- -->
-          <div class="py-10 grid gap-10  items-center justify-center grid-cols-1 md:grid-cols-2 md:gap-5">
+          <div
+            class="py-10 grid gap-10 items-center grid-cols-1 md:grid-cols-2 md:gap-5"
+          >
             <!-- LEFT-------------------- -->
             <div class="grid gap-4 sm:gap-0 grid-cols-1 mx-auto sm:grid-cols-2">
-                <!-- BOX 1------------------ -->
-                <div class="bg-gray-100 p-10 text-center sm:border-r sm:border-b border-gray-200">
-                    <img class="w-max mx-auto mb-1" src="./assets/images/address.png" alt="">
-                    <h1 class="text-2xl font-bold mb-2">Address</h1>
-                    <p class="text-sm text-slate-700">A108 Adam Street,</p>
-                    <p class="text-sm text-slate-700">New York, NY 535022</p>
-                </div>
+              <!-- BOX 1------------------ -->
+              <div
+                class="bg-gray-100 p-10 text-center sm:border-r sm:border-b border-gray-200"
+              >
+                <img
+                  class="w-max mx-auto mb-1"
+                  src="./assets/images/address.png"
+                  alt=""
+                />
+                <h1 class="text-2xl font-bold mb-2">Address</h1>
+                <p class="text-sm text-slate-700">A108 Adam Street,</p>
+                <p class="text-sm text-slate-700">New York, NY 535022</p>
+              </div>
 
-                <!-- BOX 2------------------ -->
-                <div class="bg-gray-100 p-10 text-center sm:border-b border-gray-200">
-                    <img class="w-max mx-auto mb-1" src="./assets/images/call.png" alt="">
-                    <h1 class="text-2xl font-bold mb-2">Call Us</h1>
-                    <p class="text-sm text-slate-700">+88 01750 00 00 00</p>
-                    <p class="text-sm text-slate-700">+88 01750 00 00 00</p>
-                </div>
-                
+              <!-- BOX 2------------------ -->
+              <div
+                class="bg-gray-100 p-10 text-center sm:border-b border-gray-200"
+              >
+                <img
+                  class="w-max mx-auto mb-1"
+                  src="./assets/images/call.png"
+                  alt=""
+                />
+                <h1 class="text-2xl font-bold mb-2">Call Us</h1>
+                <p class="text-sm text-slate-700">+88 01750 00 00 00</p>
+                <p class="text-sm text-slate-700">+88 01750 00 00 00</p>
+              </div>
 
-                <!-- BOX 3------------------ -->
-               <div class="bg-gray-100 p-10 text-center sm:border-r border-gray-200">
-                    <img class="w-max mx-auto mb-1" src="./assets/images/email.png" alt="">
-                    <h1 class="text-2xl font-bold mb-2">Email Us</h1>
-                    <p class="text-sm text-slate-700">info@gmail.com</p>
-                    <p class="text-sm text-slate-700">info@gmail.com</p>
-                </div>
+              <!-- BOX 3------------------ -->
+              <div
+                class="bg-gray-100 p-10 text-center sm:border-r border-gray-200"
+              >
+                <img
+                  class="w-max mx-auto mb-1"
+                  src="./assets/images/email.png"
+                  alt=""
+                />
+                <h1 class="text-2xl font-bold mb-2">Email Us</h1>
+                <p class="text-sm text-slate-700">info@gmail.com</p>
+                <p class="text-sm text-slate-700">info@gmail.com</p>
+              </div>
 
-                <!-- BOX 4------------------ -->
-               <div class="bg-gray-100 p-10 text-center w-max sm:w-full">
-                    <img class="w-max mx-auto mb-1" src="./assets/images/time.png" alt="">
-                    <h1 class="text-2xl font-bold mb-2">Working Hours</h1>
-                    <p class="text-sm text-slate-700">Mon-Fri: 9AM to 5PM</p>
-                    <p class="text-sm text-slate-700">Sunday: 9AM to 1 PM</p>
-                </div>
+              <!-- BOX 4------------------ -->
+              <div class="bg-gray-100 p-10 text-center w-max sm:w-full">
+                <img
+                  class="w-max mx-auto mb-1"
+                  src="./assets/images/time.png"
+                  alt=""
+                />
+                <h1 class="text-2xl font-bold mb-2">Working Hours</h1>
+                <p class="text-sm text-slate-700">Mon-Fri: 9AM to 5PM</p>
+                <p class="text-sm text-slate-700">Sunday: 9AM to 1 PM</p>
+              </div>
             </div>
-
 
             <!-- RIGHT-------------------- -->
             <div class="grid gap-4 grid-cols-1">
-                <input class="bg-gray-100 outline-none py-4 px-3 rounded-md" type="text" placeholder="Your Name">
-                <input class="bg-gray-100 outline-none py-4 px-3 rounded-md" type="email" placeholder="Your Email">
-                <input class="bg-gray-100 outline-none py-4 px-3 rounded-md" type="text" placeholder="Subject">
-                <textarea class="bg-gray-100 outline-none py-4 px-3 w-full h-[120px] rounded-md resize-none" placeholder="Your Message"></textarea>
-                <button class="bg-[#B68C5A] outline-none py-4 px-3 rounded-md text-white font-semibold text-lg capitalize">sent message</button>
+              <input
+                class="bg-gray-100 outline-none py-4 px-3 rounded-md w-full"
+                type="text"
+                placeholder="Your Name"
+              />
+              <input
+                class="bg-gray-100 outline-none py-4 px-3 rounded-md w-full"
+                type="email"
+                placeholder="Your Email"
+              />
+              <input
+                class="bg-gray-100 outline-none py-4 px-3 rounded-md w-full"
+                type="text"
+                placeholder="Subject"
+              />
+              <textarea
+                class="bg-gray-100 outline-none py-4 px-3 w-full h-[120px] rounded-md resize-none"
+                placeholder="Your Message"
+              ></textarea>
+              <button
+                class="bg-[#B68C5A] outline-none py-4 px-3 rounded-md text-white font-semibold text-lg capitalize w-full"
+              >
+                <p>sent message</p>
+              </button>
             </div>
-
-
           </div>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER SECTION START----------------  -->
+    <footer class="w-full py-[8rem] bg-[#111111]">
+      <div class="container mx-auto w-[85%]">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10"
+        >
+          <!-- item 1----------  -->
+          <div>
+            <img class="mb-5" src="./assets/images/logo.png" alt="" />
+            <p class="text-sm text-slate-300">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+          </div>
+
+          <!-- item 2----------  -->
+          <div>
+            <h1 class="text-2xl font-semibold capitalize mb-4 text-white">
+              Usefull Link
+            </h1>
+            <ul class="text-sm text-slate-300 space-y-2 capitalize">
+              <li><p></p></li>
+              <li>about us</li>
+              <li>cases blog</li>
+              <li>contact us</li>
+            </ul>
+          </div>
+
+          <!-- item 3----------  -->
+          <div>
+            <h1 class="text-2xl text-white font-semibold capitalize mb-4">
+              contact now
+            </h1>
+
+            <div class="space-y-3 text-slate-300 text-sm">
+              <div>
+                <p>555 4th 5t NW, Washington</p>
+                <p>DC 20530, United States</p>
+              </div>
+              <div>
+                <p>+88 01750 000 000</p>
+                <p>+88 01750 000 000</p>
+              </div>
+              <div>
+                <p>info@gmai.com</p>
+                <p>info@gmai.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 4----------  -->
+          <div>
+            <h1 class="text-2xl text-white font-semibold capitalize mb-4">
+              subscribe
+            </h1>
+            <p class="text-sm text-slate-300 w-[70%] mb-3">
+              Subscribe for our latest & Articles. We Won t Give You Spam Mails
+            </p>
+
+            <div class="w-[90%] flex items-center bg-white rounded-md">
+              <input
+                class="bg-transparent w-full outline-none h-full pl-3"
+                type="text"
+                placeholder="Email Address"
+              />
+              <ion-icon
+                class="bg-[#B68C5A] block w-10 max-h-full text-2xl text-white p-2 rounded-md cursor-pointer"
+                name="send-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- icon cdn link------------------------ -->
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
